@@ -19,8 +19,10 @@ test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")
 ```
 
 ### Number of Clusters:
-Change the following [code](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/K-means.R) in line 10 into desired number of clusters.
+Change the following [code](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/K-means.R) in line 10-12 into desired number of clusters.
 
 ```R
 cluster <- 3
+
+c_initial <- c(0,1,2)
 ```
