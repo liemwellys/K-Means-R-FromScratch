@@ -2,8 +2,7 @@
 require(ggplot2)
 
 #import test data
-test1_data <- read.table("D:/Documents/NCTU 2017/Sem 1/Machine Learning/HW5/test2_data.txt",
-                         quote="\"", comment.char="")
+test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")
 
 test1_data <- as.matrix(test1_data)
 
