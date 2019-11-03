@@ -2,7 +2,7 @@
 K-Means Clustering code from scratch using R programming language.
 
 ## Required Packages
-`ggplot` (for plotting the clustering result in each iteration)
+`ggplot2` for plotting the clustering result in each iteration
 
 ## Dataset
 There are 2 sample dataset in this project, they are [dataset 1](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test1_data.txt) and [dataset 2](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test2_data.txt).<br>
