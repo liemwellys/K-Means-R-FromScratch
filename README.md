@@ -11,16 +11,14 @@ Each dataset consist of *N* rows data and 2 columns represent the *x*-axis and a
 ## Running the code
 The code is designed to cluster [dataset 2](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test2_data.txt) into 3 clusters. If you want to change either dataset or the final number of clusters on another dataset samples, change the following parameters:
 
-### Dataset
-Change the following code in line 5.
+<li>Dataset: Change the following code in line 5.
 
-```R:
+```R
 test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")
 ```
 
-### Number of Clusters:
-Change the following code in line 10.
+<li>Number of Clusters: Change the following code in line 10.
 
-```R:
+```R
 cluster <- 3
 ```
