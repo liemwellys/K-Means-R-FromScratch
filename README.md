@@ -9,4 +9,6 @@ There are 2 sample dataset in this project, they are [dataset 1](https://github.
 Each dataset consist of *N* rows data and 2 columns represent the *x*-axis and and *y*-axis.
 
 ## Running the code
-The code are designed to cluster [dataset 1](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test1_data.txt) and [dataset 2](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test2_data.txt) into 3 clusters. If you want to change the final number of clusters based on dataset samples, change the [code](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/K-means.R) in line 10.
+The code is designed to cluster [dataset 2](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/test2_data.txt) into 3 clusters. If you want to change either dataset or the final number of clusters on another dataset samples, change the following parameters:<br>
+<li>Dataset: [code](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/K-means.R) in line 5.<br>
+<li>Number of Clusters: [code](https://github.com/liemwellys/K-Means-R-FromScratch/blob/master/K-means.R) in line 10.
