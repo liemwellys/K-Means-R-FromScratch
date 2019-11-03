@@ -13,8 +13,14 @@ The code is designed to cluster [dataset 2](https://github.com/liemwellys/K-Mean
 
 ### Dataset
 Change the following code in line 5.
-```R: test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")```
+
+```R:
+test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")
+```
 
 ### Number of Clusters:
 Change the following code in line 10.
-```R: cluster <- 3```
+
+```R:
+cluster <- 3
+```
