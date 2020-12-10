@@ -2,7 +2,7 @@
 require(ggplot2)
 
 #import test data
-test1_data <- read.table("D:/test2_data.txt", quote="\"", comment.char="")
+test1_data <- read.table("test2_data.txt", quote="\"", comment.char="")
 
 test1_data <- as.matrix(test1_data)
 
@@ -86,16 +86,17 @@ while (status != 0)
   }
   
   #update the current centroid
-  for (i in 1:cluster)
-  {
-    for (j in 1:ncol(centroid))
+  if(all(updCentroid == centroid)){
+    status = 0
+  }
+  else {
+    status = 1
+    for (i in 1:cluster)
     {
-      if (updCentroid[i,j] != centroid[i,j])
+      for (j in 1:ncol(centroid))
       {
-        status <- 1
         centroid[i,j] <- updCentroid[i,j]
       }
-      else status <- 0
-    }
+    } 
   }
 }
